@@ -1,0 +1,18 @@
+2025-06-12 15:42:29,325 - elsapy.elsclient - INFO - Module loaded.
+2025-06-12 15:42:29,327 - elsapy.elsentity - INFO - Module loaded.
+2025-06-12 15:42:29,327 - elsapy.utils - INFO - Module loaded.
+2025-06-12 15:42:29,328 - elsapy.elsprofile - INFO - Module loaded.
+2025-06-12 15:42:29,329 - elsapy.elsdoc - INFO - Module loaded.
+2025-06-12 15:42:29,330 - elsapy.elssearch - INFO - Module loaded.
+2025-06-12 15:43:29,664 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7004367821
+2025-06-12 15:43:30,539 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/7004367821
+and using headers {'X-ELS-APIKey': '56c99a76116facd7f462f42ef0ece786', 'User-Agent': 'elsapy-v0.5.1', 'Accept': 'application/json', 'X-ELS-Insttoken': 'ENTER_INSTTOKEN_HERE_IF_YOU_HAVE_ONE_ELSE_DELETE'}:
+{"service-error":{"status":{"statusCode":"AUTHENTICATION_ERROR","statusText":"Institution Token is not associated with API Key"}}}
+2025-06-12 15:47:11,951 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7004367821
+2025-06-12 15:47:12,832 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/7004367821
+and using headers {'X-ELS-APIKey': '56c99a76116facd7f462f42ef0ece786', 'User-Agent': 'elsapy-v0.5.1', 'Accept': 'application/json', 'X-ELS-Insttoken': 'ENTER_INSTTOKEN_HERE_IF_YOU_HAVE_ONE_ELSE_DELETE'}:
+{"service-error":{"status":{"statusCode":"AUTHENTICATION_ERROR","statusText":"Institution Token is not associated with API Key"}}}
+2025-06-12 15:47:13,832 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/S1525-1578(10)60571-5
+2025-06-12 15:47:14,610 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/article/doi/10.1016/S1525-1578(10)60571-5
+and using headers {'X-ELS-APIKey': '56c99a76116facd7f462f42ef0ece786', 'User-Agent': 'elsapy-v0.5.1', 'Accept': 'application/json', 'X-ELS-Insttoken': 'ENTER_INSTTOKEN_HERE_IF_YOU_HAVE_ONE_ELSE_DELETE'}:
+{"service-error":{"status":{"statusCode":"AUTHENTICATION_ERROR","statusText":"Institution Token is not associated with API Key"}}}

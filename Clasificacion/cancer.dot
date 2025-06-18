@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="worst perimeter <= 105.95\nentropy = 0.953\nsamples = 569\nvalue = [212, 357]\nclass = benign", fillcolor="#afd7f4"] ;
+1 [label="worst concave points <= 0.135\nentropy = 0.283\nsamples = 345\nvalue = [17, 328]\nclass = benign", fillcolor="#43a2e6"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="area error <= 48.975\nentropy = 0.097\nsamples = 320\nvalue = [4, 316]\nclass = benign", fillcolor="#3c9ee5"] ;
+1 -> 2 ;
+3 [label="entropy = 0.055\nsamples = 316\nvalue = [2, 314]\nclass = benign", fillcolor="#3a9ee5"] ;
+2 -> 3 ;
+4 [label="entropy = 1.0\nsamples = 4\nvalue = [2, 2]\nclass = malignant", fillcolor="#ffffff"] ;
+2 -> 4 ;
+5 [label="worst texture <= 27.575\nentropy = 0.999\nsamples = 25\nvalue = [13, 12]\nclass = malignant", fillcolor="#fdf5f0"] ;
+1 -> 5 ;
+6 [label="entropy = 0.811\nsamples = 16\nvalue = [4, 12]\nclass = benign", fillcolor="#7bbeee"] ;
+5 -> 6 ;
+7 [label="entropy = 0.0\nsamples = 9\nvalue = [9, 0]\nclass = malignant", fillcolor="#e58139"] ;
+5 -> 7 ;
+8 [label="worst perimeter <= 117.45\nentropy = 0.556\nsamples = 224\nvalue = [195.0, 29.0]\nclass = malignant", fillcolor="#e99456"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="worst smoothness <= 0.136\nentropy = 0.998\nsamples = 57\nvalue = [30, 27]\nclass = malignant", fillcolor="#fcf2eb"] ;
+8 -> 9 ;
+10 [label="entropy = 0.787\nsamples = 34\nvalue = [8, 26]\nclass = benign", fillcolor="#76bbed"] ;
+9 -> 10 ;
+11 [label="entropy = 0.258\nsamples = 23\nvalue = [22, 1]\nclass = malignant", fillcolor="#e68742"] ;
+9 -> 11 ;
+12 [label="worst smoothness <= 0.1\nentropy = 0.094\nsamples = 167\nvalue = [165, 2]\nclass = malignant", fillcolor="#e5833b"] ;
+8 -> 12 ;
+13 [label="entropy = 0.918\nsamples = 3\nvalue = [1, 2]\nclass = benign", fillcolor="#9ccef2"] ;
+12 -> 13 ;
+14 [label="entropy = 0.0\nsamples = 164\nvalue = [164, 0]\nclass = malignant", fillcolor="#e58139"] ;
+12 -> 14 ;
+}

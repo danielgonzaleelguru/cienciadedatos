@@ -1,0 +1,7 @@
+setup.py
+Ambiental.egg-info/PKG-INFO
+Ambiental.egg-info/SOURCES.txt
+Ambiental.egg-info/dependency_links.txt
+Ambiental.egg-info/top_level.txt
+Libreria1/Ambiental.py
+Libreria1/__init__.py
